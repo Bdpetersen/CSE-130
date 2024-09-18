@@ -3,11 +3,11 @@
 # 2. Assignment Name: 
 #    Lab 01: Python Review
 # 3. Assignment Description:
-#    -describe what this program is meant to do-
+#    Asks user for a max value and chooses a random number in between 1 and the max. then asks them to guess what the random number is.
 # 4. What was the hardest part? Be as specific as possible.
-#    -a paragraph or two about how the assignment went for you-
+#    I had a hard time changing the data types of the values i was printing. i kept forgetting to change them and i also made them the wrong type sometimes
 # 5. How long did it take for you to complete the assignment?
-#    -total time in hours including reading the assignment and submitting the program-  
+#    It took about an hour to complete.   
 
 import random
 
