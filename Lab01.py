@@ -7,7 +7,7 @@
 # 4. What was the hardest part? Be as specific as possible.
 #    I had a hard time changing the data types of the values i was printing. i kept forgetting to change them and i also made them the wrong type sometimes
 # 5. How long did it take for you to complete the assignment?
-#    It took about an hour to complete.   
+#    It took about a two hours to complete.   
 
 import random
 
