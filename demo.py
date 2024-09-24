@@ -1,4 +1,16 @@
-num = "6"
-num2 = "7"
-if num < num2:
-    print(num)
+print("Week", "1")
+
+print(f"Week {1}")
+
+print("Week " + "1")
+
+print("Week " "1")
+
+print(f"Week {'1'}")
+
+
+print("Week 1")
+
+print('Week 1')
+
+print("Week " + str(1))
