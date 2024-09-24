@@ -1,4 +1,8 @@
 num = "6"
 num2 = "7"
-if num < num2:
-    print(num)
+
+try:
+    if num < num2:
+        print(num)
+except:
+    print("invalid")

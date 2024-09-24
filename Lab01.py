@@ -1,13 +1,13 @@
-# 1. Name: 
+# 1. Name:
 #    Brandon Petersen
-# 2. Assignment Name: 
+# 2. Assignment Name:
 #    Lab 01: Python Review
 # 3. Assignment Description:
 #    Asks user for a max value and chooses a random number in between 1 and the max. then asks them to guess what the random number is.
 # 4. What was the hardest part? Be as specific as possible.
 #    I had a hard time changing the data types of the values i was printing. i kept forgetting to change them and i also made them the wrong type sometimes.
 # 5. How long did it take for you to complete the assignment?
-#    It took about a two hours to complete.   
+#    It took about a two hours to complete.
 
 import random
 
@@ -24,11 +24,11 @@ print(f"Guess a number between 1 and {value_max}.")
 guess = 0
 guess_list = []
 # Play the guessing game.
-while(guess != value_random):
-    
+while (guess != value_random):
+
     # Prompt the user for a number.
     guess = int(input())
-    
+
     # Store the number in an array so it can be displayed later.
     guess_list.append(guess)
 
@@ -36,7 +36,7 @@ while(guess != value_random):
     if guess > value_random:
         print(" Too High!")
     if guess < value_random:
-        print(" Too Low!")    
+        print(" Too Low!")
 # Give the user a report: How many guesses and what the guesses where.
 print(f"You took {len(guess_list)} guesses to find the number {value_random}.")
 print(f"The numbers you guessed were {guess_list}.")
