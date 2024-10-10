@@ -21,27 +21,27 @@ except:
     print("Files not found, please fix.")
 
 # Ask for the username/password
-user = input("Please Enter Your Username: ")
-password = input("Please Enter Your Password: ")
+#user = input("Please Enter Your Username: ")
+#password = input("Please Enter Your Password: ")
 
 # Check if Username and Password matches
+def authenticate(user, password):
+    try:
+        user_index = data['username'].index(user)
+        match = password == data['password'][user_index]
+    except:
+        match = False
 
-try:
-    user_index = data['username'].index(user)
-    match = password == data['password'][user_index]
-except:
-    match = False
-
-if match == True:
-    print("You are authenticated!")
-else:
-    print("You are not authorized to use the system.")
-
-
-"""if user in data['username']:
-    user_index = data['username'].index(user)
-
-    if password == data['password'][user_index]:
+    if match == True:
         print("You are authenticated!")
     else:
-        print("You are not authorized to use the system.")"""
+        print("You are not authorized to use the system.")
+
+if __name__ == "__main__":
+    authenticate("John Cheese", "None shall pass")
+    authenticate("Black Knight", "Tis but a scratch.")
+    authenticate("John Cheese", "Tis but a scratch.")
+    authenticate("King Arthur", "Bring out your dead!")
+    authenticate("Black Knight", "None shall pass")
+    authenticate("King Arthur", "Run away!")
+    authenticate("French Soldier", "I fart in your general direction")
