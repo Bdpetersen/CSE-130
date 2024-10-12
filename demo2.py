@@ -1,15 +1,3 @@
-# 1. Name:
-#       Brandon Petersen
-# 2. Assignment Name:
-#      Lab 04: Monopoly
-# 3. Assignment Description:
-#      Find out the best way to put a hotel on pennsylvania avenue
-# 4. What was the hardest part? Be as specific as possible.
-# The hard part of the assignment I think was trying to figure out what the best way optimize the code is. I had a bunch of if statements in a chain so i had to decide if i needed all of them.
-# 5. How long did it take for you to complete the assignment?
-#      2 hours
-
-
 def get_property_status(property_name, value):
     # return int(input(f"What is on {property_name}? (0: nothing, 1: one house, 2: two houses, 3: three houses, 4: four houses, 5: a hotel) "))
     return value
@@ -36,9 +24,11 @@ def purchase_hotel(cash_needed, total_needed, pa_needed, nc_needed, pc_needed):
 def check_purchase(all_prop, pc_prop, nc_prop, pa_prop, houses, hotels, cash):
     # all_prop = input("Do you own all the green properties? (y/n) ")
     if all_prop == "y":
-        # Find out what is on Pennsylvania
-        # pa_prop = get_property_status("Pennsylvania Avenue")
-        # Find out if pennsylania needs a hotel
+        """
+        Find out what is on Pennsylvania
+        pa_prop = get_property_status("Pennsylvania Avenue")
+        Find out if pennsylania needs a hotel
+        """
         if pa_prop <= 4:
             # nc_prop = get_property_status("North Carolina Avenue")
             if nc_prop <= 4:
