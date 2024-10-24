@@ -1,6 +1,6 @@
 # Problem 1
-condition = (((a >= 10) or (b <= 5)) and ((c != "apple") or (d == True))) or (
-    ((e > 20) and (f < -10)) and ((g != False) or (h == 0)))
+condition = (((a >= 10) or (b <= 5)) and ((c != "apple") or d)) or (
+    ((e > 20) and (f < -10)) and (g or (h == 0)))
 
 # Problem 2
 condition = ((not (x > 0)) and ((y < 10) or (z >= 100))) or (

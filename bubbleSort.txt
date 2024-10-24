@@ -1,0 +1,5 @@
+for iSpot <-- numItems-1 ... 1
+    for iCheck <-- 0 ... iSpot-1
+        If array[iCheck] < array[iCheck+1]
+            swap(array[iCheck], array[iCheck+1])
+            

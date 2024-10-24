@@ -2,12 +2,12 @@
 a = True
 b = False
 c = True
-result1 = a and (b or c)
+result1 = a 
 
 # Problem 2: Simplify the following expression
 x = True
 y = False
-result2 = x or (x and y)
+result2 = x
 
 # Problem 3: Simplify the following expression
 p = False
