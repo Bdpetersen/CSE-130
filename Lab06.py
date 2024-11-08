@@ -58,6 +58,6 @@ if __name__ == "__main__":
     print(main("Lab06.trivial.json", "trivial"))  # O(1)
     print(main("Lab06.trivial.json", "missing"))  # O(1)
     print(main("Lab06.languages.json", "C++"))  # O(1)
-    print(main("Lab06.languages.json:", "Lisp"))  # O(1)
+    print(main("Lab06.languages.json", "Lisp"))  # O(1)
     print(main("Lab06.countries.json", "United States of America"))  # O(1)
     print(main("Lab06.countries.json", "United States"))  # O(1)
