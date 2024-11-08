@@ -5,7 +5,7 @@
 # 3. Assignment Description:
 #      Search a list by checking if the word your searching for matches the middle element, the search is complete. If the target is smaller than the middle element, then repeat with the lower numbers. if the target is larger, focus on the upper numbers.
 # 4. Algorithmic Efficiency
-#      O(n): The load method I used loops through one by one.
+#      O(log n) The search algorithm is looping through and it halves it every time it goes through. All the other statements are O(1)
 # 5. What was the hardest part? Be as specific as possible.
 #      The hardest part was figuring out how to get the data in the file into a list to use it in the comparisons. I knew how to have the data in a dictionary but i didnt know how to make it into a list.
 # 6. How long did it take for you to complete the assignment?
@@ -58,6 +58,6 @@ if __name__ == "__main__":
     print(main("Lab06.trivial.json", "trivial"))  # O(1)
     print(main("Lab06.trivial.json", "missing"))  # O(1)
     print(main("Lab06.languages.json", "C++"))  # O(1)
-    print(main("Lab06.languages.json:", "Lisp"))  # O(1)
+    print(main("Lab06.languages.json", "Lisp"))  # O(1)
     print(main("Lab06.countries.json", "United States of America"))  # O(1)
     print(main("Lab06.countries.json", "United States"))  # O(1)
